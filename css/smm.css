@@ -1,0 +1,362 @@
+header nav {
+    background-color: rgba(0, 0, 255, 0.523);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+ .menu ul li {
+    margin: 10px;
+}
+
+ .menu a i {
+    margin: 10px;
+    color: white;
+    transition: all 2s;
+    font-size: 1.3em;
+
+    
+}
+
+.menu a i:hover{
+    background-color: green;
+    transform: scale(1.2);
+}
+
+ .menu ul li a {
+    color: white;
+    transition: all 2s;
+    font-size: 1.3em;
+}
+
+header nav .logo img {
+    margin: 10px;
+    width: 60%;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+
+    from {
+        transform: rotate(0);
+    }
+to{
+    transform: rotate(360deg);
+}
+
+}
+
+.smm-kursu{
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.smm-kursu h1{
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.smm-kurs-content{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.smm-kurs-content h2{
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.smm-kurs-content .ders{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: black;
+   
+}
+
+.smm-kurs-content p{
+    color: black;
+    text-align: center;
+    font-size: 1.3em;
+   
+}
+
+hr{
+    width: 50%;
+}
+
+.smm-kurs-content h1{
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.smm-kurs-content ul li{
+    color: black;
+    font-size: 1.3em;
+   margin-left:25%;
+ } 
+
+ .smm-kurs-content h3{
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+ }
+
+.esas-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.esas-1 img {
+     width: 50%;
+     height: auto;
+     margin: 10px;
+     padding: 10px;
+     transition: all 2s; 
+ }
+
+ .esas-2{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .esas-2 img{
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    transition: all 2s; 
+     
+ }
+
+ .esas-2-button{
+    text-align: center;
+ }
+
+ .esas-2-button button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    font-size: 16px;
+}
+ 
+.esas-2-button a{
+    color: white;
+}
+
+h1{
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.smm-kurs-content .telimin-ferqi{
+    color: red;
+}
+
+.smm-kurs-content .ustunlukler{
+    color: black;
+    margin-right:25%;
+}
+
+.ustunluk{
+    margin-right:25%;
+    padding: 10px;
+}
+
+.smm-kurs-content .qiymet{
+    color: green;
+}
+
+.qiymetler{
+    margin-left:25%;
+}
+
+.smm-kurs-content .hisseli{
+    color: green;
+}
+
+.smm-kurs-content .zeng{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smm-kurs-content .zeng .tel button{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    border-radius: 10%;
+
+}
+
+.smm-kurs-content .zeng .tel button a{
+    color: white;
+
+}
+
+.smm-kurs-content .zeng .whatsapp button{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.smm-kurs-content .zeng .whatsapp a{
+    color: white;
+    font-size: 10px;
+}
+
+.smm-kurs-content .zeng .whatsapp a i{
+    font-size: 1.5em;
+}
+
+.footer-section {
+    width: 100%;
+    height: 577px;
+    background-color: rgba(0, 0, 255, 0.523);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .footerDiv-sol {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.footerDiv .footerDiv-sol h1 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.footerDiv-sol  ul li {
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.3em;
+    
+}
+
+.footerDiv-sol ul li a {
+   
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.footerDiv-sol ul li a:hover {
+    background-color: green;
+}
+
+.footerDiv-sag{
+    margin: 10px;
+}
+
+.footerDiv-sag p  {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.footerDiv-sag h1 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.footer-social-media h1{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.footer-social-media a i {
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    transition: all 1s;
+}
+
+.footer-social-media a i:hover {
+    background-color: green;
+
+}
+
+.footer-social-media:hover a i {
+    transform: scale(1.2);
+}
+
+.foter-son{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-son-1{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.footer-son-2 a{
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.footer-son-2 a:hover{
+    background-color: green;
+}
+
+

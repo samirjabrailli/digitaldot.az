@@ -1,0 +1,927 @@
+
+header nav {
+    background-color: rgba(0, 0, 255, 0.523);
+    display: flex;
+    /* justify-content: space-between; */
+    height: 100%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    margin: 45px;
+    align-items: center;
+}
+
+.menu ul li {
+    margin: 10px;
+}
+
+.menu a i {
+    margin: 10px;
+    color: white;
+    transition: all 2s;
+    font-size: 1.3em;
+}
+
+.menu a i:hover {
+    background-color: green;
+    transform: scale(1.2);
+   
+    
+}
+
+.menu ul li a {
+    color: white;
+    transition: all 2s;
+    font-size: 1.3em;
+   
+   
+}
+
+
+
+header nav .logo img {
+    margin: 10px;
+    width: 60%;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+
+    from {
+        transform: rotate(0);
+    }
+to{
+    transform: rotate(360deg);
+}
+
+
+}
+
+
+.section-1 {
+    width: 100%;
+    height: 200px;
+    margin: 25px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #fff;
+    
+}
+
+.centerDiv {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+  }
+
+
+
+  .centerDiv h1 {
+
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centerDiv p {
+
+    margin: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.centerDiv button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    font-size: 16px;
+  }
+.centerDiv button a {
+    color: white;
+}
+
+.section-2 {
+    width: 100%;
+    height: 388px;
+    background-color: rgba(0, 0, 255, 0.523);
+    margin-top: 50px;
+}
+
+.esas{
+    display: flex;
+}
+
+.esas .esas-1{
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.esas .esas-1 img {
+    width: 90%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    object-fit: cover;
+    height: 300px;
+    
+}
+
+.esas .eas-2{
+    padding: 10px;
+}
+
+.esas .eas-2 h2{
+    margin: 25px;
+    color:white;
+    font-size: 1.3em;
+}
+
+.esas .eas-2 h4{
+    margin: 10px;
+    color:white;
+}
+
+.esas .eas-2 p{
+    margin: 25px;
+    color:white;
+    font-size: 1.3em;
+}
+
+.esas .eas-2 button{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+}
+
+.esas .eas-2 button a{
+    color: white;
+}
+
+
+
+
+/* section 3*/
+.section-3 {
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.523);
+}
+
+.esas-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.esas-2 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cart {
+
+    width: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 3px 4px 5px 5px rgba(0, 0, 255, 0.523);
+    margin: 20px;
+    padding: 10px;
+    transition: all 2s;
+    height: 100%;
+}
+
+.cart img {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    transition: all 2s;
+}
+
+.cart .cart-content {
+    padding: 16px;
+
+}
+
+.cart .cart-content h3 {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    padding: 8px;
+    color: white;
+
+}
+
+.cart .cart-content p {
+    color: white;
+    font-size: 1.1em;
+}
+
+.cart .cart-content:hover h3 {
+
+    background-color: rgba(0, 0, 255, 0.523);
+    
+}
+
+.cart .cart-content:hover p {
+    background-color: rgba(0, 0, 255, 0.523);
+   
+}
+
+.cart:hover {
+    background-color: green;
+}
+
+.cart:hover img {
+    transform: scale(1.2);
+}
+
+.cart-1 {
+    width: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 3px 4px 5px 5px rgba(0, 0, 255, 0.523);
+    margin: 20px;
+    padding: 10px;
+    transition: all 2s;
+    height: 100%;
+}
+
+.cart-1 img {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    transition: all 2s;
+}
+
+.cart-1 .cart-content {
+    padding: 16px;
+}
+
+.cart-1 .cart-content h3 {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    padding: 10px;
+    color: white;
+    transition: all 2s;
+}
+
+.cart-1 .cart-content p {
+    color: white;
+    font-size: 1.1em;
+    transition: all 2s;
+}
+
+.cart-1 .cart-content:hover h3 {
+
+    background-color: rgba(0, 0, 255, 0.523);
+}
+
+.cart-1 .cart-content:hover p {
+    background-color: rgba(0, 0, 255, 0.523);
+}
+
+.cart-1:hover {
+    background-color: green;
+}
+
+.cart-1:hover img {
+    transform: scale(1.2);
+}
+
+.section-5 {
+    width: 100%;
+    height: 220px;
+    background-color: rgba(0, 0, 255, 0.523);
+    text-align: center;
+    margin-top: 50px;
+}
+.centerDiv-2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;
+   
+}
+
+.centerDiv-2 h1{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centerDiv-2 button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    font-size: 16px;
+}
+
+.centerDiv-2 button a{
+    color: #fff;
+}
+
+.footer-section {
+    width: 100%;
+    height: 577px;
+    background-color: rgba(0, 0, 255, 0.523);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .footerDiv-sol {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.footerDiv .footerDiv-sol h1 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.footerDiv-sol  ul li {
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.3em;
+    
+}
+
+.footerDiv-sol ul li a {
+   
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.footerDiv-sol ul li a:hover {
+    background-color: green;
+}
+
+.footerDiv-sag{
+    margin: 10px;
+}
+
+.footerDiv-sag p  {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.footerDiv-sag h1 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.footer-social-media h1{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.footer-social-media a i {
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    transition: all 1s;
+}
+
+.footer-social-media a i:hover {
+    background-color: green;
+
+}
+
+.footer-social-media:hover a i {
+    transform: scale(1.2);
+}
+
+.foter-son{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-son-1{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.footer-son-2 a{
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.footer-son-2 a:hover{
+    background-color: green;
+}
+
+@media screen and (max-width: 700px) {
+    header nav {
+        background-color: rgba(0, 0, 255, 0.523);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 60%;
+        height: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .menu ul li {
+        margin: 10px;
+       
+    }
+    
+    .menu a i {
+        margin: 10px;
+        color: white;
+        transition: all 2s;
+        font-size: 1.3em;
+    }
+    
+    .menu a i:hover {
+        background-color: green;
+        transform: scale(1.2)
+    }
+    
+    .menu ul li a {
+        color: white;
+        transition: all 2s;
+        font-size: 1.3em;
+      
+    }
+    
+    header nav .logo img {
+        margin: 10px;
+        width: 25%;
+        animation-name: logo;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        
+
+    }
+    
+    @keyframes logo {
+    
+        from {
+            transform: rotate(0);
+        }
+    to{
+        transform: rotate(360deg);
+    }
+    
+    
+    }
+    .section-1 {
+        width: 60%;
+        height: 200px;
+        margin: 25px;
+        text-align: center;
+        margin-top: 50px;
+        background-color: #fff;
+        
+    }
+    
+    .centerDiv {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        color: white;
+      }
+    
+    
+    
+      .centerDiv h1 {
+    
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+        color: blue;
+        font-size: 1.1em;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .centerDiv p {
+    
+        margin: 10px;
+        color: black;
+        text-align: center;
+        font-size: 17px;
+    }
+    
+    .centerDiv button{
+        padding: 15px 30px;
+        border-radius: 30px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: blue;
+        font-size: 14px;
+      }
+    .centerDiv button a {
+        color: white;
+    }
+    .section-2 {
+        width: 100%;
+        height: 999px;
+        background-color: rgba(0, 0, 255, 0.523);
+        margin-top: 50px;
+        margin: 10px;
+    }
+    
+    .esas{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .esas .esas-1{
+        margin:60px;
+        padding: 100px;
+        
+    }
+    
+    .esas .esas-1 img {
+        width: 60%;
+        margin: 10px;
+        padding: 10px;
+        object-fit: cover;
+        height: 400px;
+        
+    }
+    
+    .esas .eas-2{
+        padding: 10px;
+    }
+    
+    .esas .eas-2 h2{
+        margin: 25px;
+        color:white;
+        font-size: 1.3em;
+       
+    }
+    
+    .esas .eas-2 h4{
+        margin: 5px;
+        color:white;
+        
+    }
+    
+    .esas .eas-2 p{
+        margin: 10px;
+        color:white;
+        font-size: 1.3em;
+       
+    }
+    
+    .esas .eas-2 button{
+        background-color: blue;
+        border: none;
+        padding: 10px;
+        
+    }
+    
+    .esas .eas-2 button a{
+        color: white;
+        
+    }
+    
+    .section-3 {
+        margin-top: 50px;
+        width: 50%;
+        background-color: rgba(0, 0, 255, 0.523);
+    }
+    
+    .esas-1 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .esas-2 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    
+    }
+    
+    .cart {
+    
+        width: 250px;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 3px 4px 5px 5px rgba(0, 0, 255, 0.523);
+        margin: 20px;
+        padding: 10px;
+        transition: all 2s;
+        height: 100%;
+    }
+    
+    .cart img {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        transition: all 2s;
+    }
+    
+    .cart .cart-content {
+        padding: 16px;
+    
+    }
+    
+    .cart .cart-content h3 {
+        font-size: 1.1em;
+        margin-bottom: 8px;
+        padding: 8px;
+        color: white;
+    
+    }
+    
+    .cart .cart-content p {
+        color: white;
+        font-size: 1.1em;
+    }
+    
+    .cart .cart-content:hover h3 {
+    
+        background-color: rgba(0, 0, 255, 0.523);
+        
+    }
+    
+    .cart .cart-content:hover p {
+        background-color: rgba(0, 0, 255, 0.523);
+       
+    }
+    
+    .cart:hover {
+        background-color: green;
+    }
+    
+    .cart:hover img {
+        transform: scale(1.2);
+    }
+    
+    .cart-1 {
+        width: 250px;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 3px 4px 5px 5px rgba(0, 0, 255, 0.523);
+        margin: 20px;
+        padding: 10px;
+        transition: all 2s;
+        height: 100%;
+    }
+    
+    .cart-1 img {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        transition: all 2s;
+    }
+    
+    .cart-1 .cart-content {
+        padding: 16px;
+    }
+    
+    .cart-1 .cart-content h3 {
+        font-size: 1.1em;
+        margin-bottom: 8px;
+        padding: 10px;
+        color: white;
+        transition: all 2s;
+    }
+    
+    .cart-1 .cart-content p {
+        color: white;
+        font-size: 1.1em;
+        transition: all 2s;
+    }
+    
+    .cart-1 .cart-content:hover h3 {
+    
+        background-color: rgba(0, 0, 255, 0.523);
+    }
+    
+    .cart-1 .cart-content:hover p {
+        background-color: rgba(0, 0, 255, 0.523);
+    }
+    
+    .cart-1:hover {
+        background-color: green;
+    }
+    
+    .cart-1:hover img {
+        transform: scale(1.2);
+    }
+    .section-5 {
+        width: 100%;
+        height: 220px;
+        background-color: rgba(0, 0, 255, 0.523);
+        text-align: center;
+        margin-top: 50px;
+    }
+    .centerDiv-2{
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6em;
+       
+    }
+    
+    .centerDiv-2 h1{
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        font-size: 1.1em;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .centerDiv-2 button{
+        padding: 15px 30px;
+        border-radius: 30px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: blue;
+        font-size: 16px;
+    }
+    
+    .centerDiv-2 button a{
+        color: #fff;
+    }
+    .footer-section {
+        width: 100%;
+        height: 877px;
+        background-color: rgba(0, 0, 255, 0.523);
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .footerDiv {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+     .footerDiv-sol {
+        display: flex;
+        margin: 10px;
+        flex-direction: column;
+        
+    }
+    
+    .footerDiv .footerDiv-sol h1 {
+        color: white;
+        font-size: 1.6em;
+        font-weight: 700;
+        padding: 10px;
+    }
+    
+    .footerDiv-sol  ul li {
+        color: white;
+        margin: 15px;
+        padding: 10px;
+        font-size: 1.3em;
+        
+    }
+    
+    .footerDiv-sol ul li a {
+       
+        margin-top: 15px;
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px;
+        transition: all 1s;
+    }
+    
+    .footerDiv-sol ul li:hover a {
+        background-color: green;
+    }
+    
+    .footerDiv-sag{
+        margin: 10px;
+    }
+    
+    .footerDiv-sag p  {
+        color: white;
+        font-size: 1.4em;
+        font-weight: 700;
+        padding: 10px;
+    }
+    
+    .footerDiv-sag h1 {
+        color: white;
+        font-size: 1.6em;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .footer-social-media{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-social-media h1{
+        color: white;
+        font-size: 1.6em;
+        font-weight: 700;
+        padding: 10px;
+    }
+    
+    .footer-social-media a i {
+        color: white;
+        padding: 10px;
+        font-size: 1.5em;
+        transition: all 1s;
+    }
+    
+    .footer-social-media a i:hover {
+        background-color: green;
+    
+    }
+    
+    .footer-social-media:hover a i {
+        transform: scale(1.2);
+    }
+    
+    .foter-son{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .footer-son-1{
+        color: #fff;
+        font-size: 1.3em;
+        margin: 25px;
+    }
+    
+    .footer-son-2 a{
+        margin-top: 15px;
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px;
+        transition: all 1s;
+    }
+    
+    .footer-son-2 a:hover{
+        background-color: green;
+    }
+    
+    
+  }
